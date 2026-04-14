@@ -212,3 +212,55 @@ footer a:hover {
         height: 180px;
     }
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid var(--accent);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #111111;
+    color: var(--primary);
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    background-color: #111111;
+    color: var(--text);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+form input[type="submit"] {
+    background-color: var(--accent-blue);
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: var(--accent-teal);
+    color: #000000;
+}
